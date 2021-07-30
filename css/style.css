@@ -1,0 +1,112 @@
+.container {
+	width: 900px;
+	margin: auto;
+	background-color: white;
+	position: relative;
+}
+
+body {
+	font: 16px/28px arial, sens-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(../img/background.png);
+	background-size: cover;
+}
+
+.header {
+	padding: 5px;
+}
+
+.header h1 {
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.header ul {
+	margin-left: -20px;
+	margin-bottom: 10px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: -10px;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: blue;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: salmon;
+	color: white;
+}
+
+.anime {
+	height: 350px;
+	background-image: url(../img/anime.png);
+	background-size: cover;
+	background-position: 0 -1px;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.content {
+	padding: 25px;
+	margin-top: -20px;
+}
+
+hr {
+	margin-top: -20px;
+	border-bottom: 2px solid black;
+}
+
+.content a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.content a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.content ul li {
+	display: inline-block;
+	margin-top: -10px;
+	margin-right: 1px;
+}
+
+.content li {
+	border: 5px solid grey;
+	margin-left: -40px;
+	padding: 10px;
+}
+
+.content img {
+	float: left;
+	margin: 20px;
+}
+
+.content p {
+	text-align: justify;
+	font-size: 14px;
+}
+
+/*clear fix*/
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
